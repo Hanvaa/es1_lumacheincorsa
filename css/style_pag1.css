@@ -1,0 +1,33 @@
+#contenitore > div{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+
+    position: absolute;
+    bottom:0px;
+}
+
+#lu1{
+    background-image: url("../img/luBlu.svg");
+    left: 100px;
+}
+
+#lu2{
+    background-image: url("../img/luGialla.svg");
+    left: 200px;
+}
+
+#lu3{
+    background-image: url("../img/luPetrolio.svg");
+    left: 300px;
+}
+
+#lu4{
+    background-image: url("../img/luPrato.svg");
+    left: 400px;
+}
+
+#lu5{
+    background-image: url("../img/luRossa.svg");
+    left: 500px;
+}

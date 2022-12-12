@@ -1,0 +1,39 @@
+header, footer, section{
+    /* Centra orizzontalmente e verticalmente i figli */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: 85vh;
+}
+
+#contenitore{
+    width: 50%;
+    /*  Avendo la section una misura assoluta
+         il contenitore può avere una misura in percentuale */
+    height: 90%;
+    border: 3px solid black;
+    border-radius: 20px;
+
+    /* POSIZIONARE IN MODO EQUIDISTANTE LE LUMACHE NEL CONTENITORE */
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+#contenitore > hr{
+    width: 99%;
+    height: 5px;
+    background-color: yellow;
+    border:3px solid red;
+    position: absolute;
+    top:20px;
+}
+
+.imgs{
+    width: 100px;
+    margin-top: auto;
+}
